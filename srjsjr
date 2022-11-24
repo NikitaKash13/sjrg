@@ -1,0 +1,11 @@
+import  java.util.Scanner;
+
+public class Main3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int x = sc.nextInt();
+        int b =(x*x*x)/10%7;
+        System.out.print("Ответ: " + b);
+    }
+}
